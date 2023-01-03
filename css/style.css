@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
-html {
-	font-size: 10px;
-	overflow-x: hidden;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body {
 	background: var(--lightGreen-2);
@@ -35,18 +35,7 @@ img {
 	height: 100%;
 	object-fit: contain;
 }
-h1,
-h2,
-h3,
-h4 {
-	font-family: Poppins;
-}
-p {
-	font-family: Raleway;
-	font-weight: 400;
-	line-height: 1.4em;
-	font-size: 1.8rem;
-}
+
 a {
 	display: inline-block;
 	text-decoration: none;
